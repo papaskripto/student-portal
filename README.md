@@ -1,8 +1,9 @@
 # StudentGradeManager
-To be comfortable with Java collections.
+Organize student grades.
 
-#### Goals (for now):
-    - add student
-    - add grades
-    - calculate average
-    - find top student
+#### Features:
+    - Add a student
+    - Add student grades
+    - Calculate the student average grade
+    - Find top student
+    - Find bottom student
