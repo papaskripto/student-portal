@@ -1,12 +1,9 @@
-import com.papaskripto.studentportal.Student;
-import com.papaskripto.studentportal.Grade;
-
 import java.util.HashMap;
 import java.util.ArrayList;
 
 public class GradeEngine {
 
-	HashMap<Student, ArrayList<Student>> records;
+	HashMap<Student, ArrayList<Grade>> records;
 
 	public GradeEngine () {
 		this.records = new HashMap<>();
@@ -18,7 +15,7 @@ public class GradeEngine {
 	}
 
 	// Add grade
-	public void addGrade (Grade grade) {
+	public void addGrade (Student student, Grade grade) {
 		records.get (student).add (grade);
 	}
 
@@ -51,9 +48,9 @@ public class GradeEngine {
 		Student bottomStudent = null;
 		double lowestAverage = Double.MAX_VALUE;
 		for (Student student : records.keySet ()) {
-			av = average (student);
-			if (av < lowestAverage) {
-				lowestAverage = av;
+			double av1 = average (student);
+			if (av1 < lowestAverage) {
+				lowestAverage = av1;
 				bottomStudent = student;
 			}
 		}
