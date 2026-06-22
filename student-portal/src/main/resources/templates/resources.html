@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>student portal | resources</title>
+  <!-- CSS -->
+  <link rel="stylesheet" th:href="@{/css/subjects.css}"/>
+</head>
+<body>
+<div id="portalContainer">
+  <div id="portalHeader">
+    <div id="schoolLogo">SCHOOL</div>
+    <div class="courses">RESOURCES PAGE</div>
+  </div>
+  <div id="portalBody">
+    <div class="bodyHeader">
+      <div class="homePage">
+        <a th:href="@{/}">Home</a>
+      </div>
+      <div class="announcements">
+        <a th:href="@{/announcements}">Announcements</a>
+      </div>
+      <div class="academicResources">
+        <a th:href="@{/academicResources}">Academic Resources</a>
+      </div>
+    </div>
+    <div class="hero">
+      <h1>courses will be here</h1>
+    </div>
+  </div>
+</div>
+</body>
+</html>

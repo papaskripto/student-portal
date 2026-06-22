@@ -58,10 +58,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url('/images/image.jpg') no-repeat center center;
-    background-size: cover;
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
     font-size: 1.5rem;
-    color: white;
+    color: #334155;
 }
 
 .bodyHeader {
@@ -101,11 +100,11 @@ body {
 .hero h1 {
     font-size: 2.2rem;
     margin-bottom: 10px;
-    color: white;
+    color: #0f172a;
 }
 
 .hero p {
     font-size: 1.1rem;
-    color: white;
+    color: #475569;
     max-width: 600px;
 }
