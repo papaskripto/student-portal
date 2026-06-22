@@ -1,4 +1,4 @@
-<img width="936" height="631" alt="student-portal-1" src="https://github.com/user-attachments/assets/458d2d03-72a4-47f3-b7c6-e147841bfe9f" />
+<img width="916" height="620" alt="student-portal-2" src="https://github.com/user-attachments/assets/0eca1de1-b09c-46fc-a3b6-d2e7c0163b8f" />
 
 # Student Portal
 Organize student grades.
