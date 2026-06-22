@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>student portal | home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" th:href="@{/css/home.css}"/>
 </head>
 <body>
-<p>Hello</p>
+<div id="portalContainer">
+    <div id="portalHeader">
+        <div id="schoolLogo">SCHOOL</div>
+        <div id="userLogin">LOGIN</div>
+    </div>
+    <div id="portalBody">
+        <div class="bodyHeader">
+            <div class="courses">Courses</div>
+            <div class="announcements">Announcements</div>
+            <div class="academicResources">Academic Resources</div>
+        </div>
+        <div class="hero">
+            <h1>Welcome to Student Portal</h1>
+            <p>Access courses, results, announcements and academic resources.</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

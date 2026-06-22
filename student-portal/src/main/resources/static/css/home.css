@@ -1,0 +1,110 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9eef6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PORTAL CONTAINER */
+#portalContainer {
+    width: 900px;
+    height: 600px;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+/* PORTAL HEADER */
+#portalHeader {
+    height: 80px;
+    background: #787878;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#schoolLogo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#userLogin {
+    background: #616161;
+    color: white;
+    padding: 10px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+/* PORTAL BODY */
+#portalBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+    font-size: 1.5rem;
+    color: #334155;
+}
+
+.bodyHeader {
+    width: 80%;
+    height: 60px;
+    background: #b4b4b4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.bodyHeader > div {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: 0.25s ease;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #475569;
+    max-width: 600px;
+}
