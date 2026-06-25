@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>student portal | courses</title>
+    <title>student portal | subjects</title>
     <!-- CSS -->
     <link rel="stylesheet" th:href="@{/css/subjects.css}"/>
 </head>
@@ -21,11 +21,16 @@
                 <a th:href="@{/announcements}">Announcements</a>
             </div>
             <div class="academicResources">
-                <a th:href="@{/academicResources}">Academic Resources</a>
+                <a th:href="@{/resources}">Academic Resources</a>
             </div>
         </div>
         <div class="hero">
-            <h1>courses will be here</h1>
+            <h1>The following subjects are on offer:</h1>
+            <table>
+                <tr th:each="subject:${subjects}">
+                    <td th:text="${subject.subjectName}"></td>
+                </tr>
+            </table>
         </div>
     </div>
 </div>
